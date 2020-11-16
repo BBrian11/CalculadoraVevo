@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <link rel="stylesheet" href="styles.css" />
+
+
+
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <!-- Input  -->
+        <input type="number" id="result" placeholder="0"/>
+
+        <!-- botones-->
+        <div class="calculator-buttons">
+            <button id="data-clear" class="calc-button is-clear">C</button>
+           
+            
+            <button name="data-number" class="calc-button">9</button>
+            <button name="data-number" class="calc-button">8</button>
+            <button name="data-number" class="calc-button">7</button>
+           
+            
+            <button name="data-number" class="calc-button">6</button>
+            <button name="data-number" class="calc-button">5</button>
+            <button name="data-number" class="calc-button">4</button>
+           
+
+
+            <button name="data-number" class="calc-button">3</button>
+            <button name="data-number" class="calc-button">2</button>
+            <button name="data-number" class="calc-button">1</button>
+              <button name="data-number" class="calc-button is-zero">0</button>
+           
+            <button id="data-equals" class="calc-button is-equals">&equals;</button> 
+            <button name="data-operation" class="calc-button">+</button>
+            <button name="data-operation" class="calc-button">-</button>   
+        </div>
+       
+    </div>
+<br>
+    <script src="../dist/calculadora.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCVNSWstKWj8bkhxotkUlWx4anKszkeevg",
+    authDomain: "calculadoravevo.firebaseapp.com",
+    databaseURL: "https://calculadoravevo.firebaseio.com",
+    projectId: "calculadoravevo",
+    storageBucket: "calculadoravevo.appspot.com",
+    messagingSenderId: "167570857776",
+    appId: "1:167570857776:web:b93d33f188bcd9ad05b2f5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</body>
+ <footer><span id="autor">Brian Bolesi</span>    <span id="email">Contacto: brianbolesi@gmail.com</span></footer>
+</html>
